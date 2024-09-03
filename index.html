@@ -1,0 +1,283 @@
+<!--Hello, maker! Welcome to my Electrate Fuego web design tutorial. I'm glad you found it – for this might be a real intersection on your way to becoming. Just follow along with the hidden code comments and you'll make a really cool webtext that not only introduces you to the other people in our classes, but will help you process how different discourse communities in your life have contributed to your arrival in this space, virtual and actual, and also contribute to where you might be going.
+
+In this doc, you will work through Gregory Ulmer's discourses of career, family, entertainment, community, and schooling (_Internet Invention From Literacy to Electracy_, 2002.) In Ulmer's text, he elides community and schooling into one category, but for our purposes I have separated them. Ulmer's theory of electracy helps makes sense of how we find/construct meaning and connect with others rhetorically in a media rich ecology. Ulmer uses analogy to define electracy, explaining that "electracy is to digital media what literacy is to print."
+
+You could make this webtext the easy way by using Google Site, Adobe Express, Weebly, or Wix, or you can do a little more work to unconceal what's inside the black box - opening up these tools that you use every day, but might not know how they function, yet prove so necessary to how you (re)present yourself and connect with others in virtual spaces. And this last bit is an important point! If we really want to be makers, if we really want to be creative, then we need to understand what our digital tools do, how they work, and consider the implications of their use. Through this process you will also learn a little bit about coding literacy and computer science...enough to allow you to build web texts and understand file management.-->
+
+<!--BTW. You can leave these hidden HTML text fields be, or delete them. They are but road signs, absent from the larger design-->
+
+<!--HTML pages start by calling <!DOCTYPE html> and designating a language. In this case, United States English. Search engines, browsers, and screen readers use this information to deliver content specific to user needs.-->
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<!--The <head> element contains additional information for search engines and browsers.--> 
+<!--The <title> tag controls the name on the browser tab and the next line of code adds a favicon image-->   
+<title>Lily's Fuego Project</title>
+<link rel="icon" type="image/jpg" href="favicon.jpg">
+<!--This website follows the Unicode 8-bit character set that standardizes all of the letters from all of the languages in the world--emojis too!-->
+<meta charset="UTF-8">
+<!--This viewport <meta> tag standard tells browsers how to display the website across different sized screens.-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--This <link> (rel)ates to the cascading style sheet or CSS in your project folder. Web designers use CSS to add styling to a website. Using CSS saves time and results in fewer lines of code.-->
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<!--The <body> element organizes all of the code and content that actually appears on a screen. You can change the background color by opening the style.css document in the body tag properties. Choose a color with enough contrast for your audience. Neutral colors work best for the greatest number of viewers.-->
+<body>
+
+<!--Developers refer to this next section as the "hero image." 
+Fill in the blank between <h1>"I am..."</h1> and see what happens.
+To replace this image, simply find and delete the hero.jpg file in the project folder. Then add a new .jpg hero image to the project folder and name it hero.jpg. Select an image at least 1200px in width to avoid pixilation. If an image is larger than 1200px, you will want to resize it speed up load time. Crop image height to ensure desired fit.--> 
+
+<!--The "hero-image" properties are controlled on the style.css document. We know this because the <div> calls the class="hero-image". You can open the style.css file and find the hero-image class to edit its properties. Alternatively you can edit the file height by cropping the image to fit within the hero-image.--> 
+<div class="hero-image">
+  <div class="hero-text">
+<!--Next, change the other relevant information in this section, especially if you're not "John en Fuego" or not majoring in "electracy"-->
+    <h1>I am Lily</h1>
+      <h2>Learn More About me!</h2>
+   </div>
+</div>
+<!--Privacy is important factor to consider in online composing. How much do you want others to know about you and what images do you want circulating on the internet? Choose your images and other content carefully and be thoughtful about how your content could impact others. If you are concerned about issues of privacy, you can always use stock images, or get creative in other ways.-->
+
+<!--In our first exploration of discourse, we're going to think about the wider characteristics or themes of our field or future career. In academia, we do a lot of work narrowing our interest to arrive at a career or profession, often reducing our field to a level of operation or an act. Instead, I would like you to think more broadly about the "wider themes" you associate with your field or future career and its larger significance in improving our world. Yes...improving the world. Thinking back, where do you see exposure to those same "wider themes" in your own life? Those ah-ha moments, lessons, examples, tools, passions, or qualities that suggested this career path to you? Replace the content between <p> and </p> that begins with "Lorem ipsum."-->
+<div class="text-block">
+  <h2>What I'm Studying</h2>
+
+  <p> Hi! I am a senior getting my Bachelor of Arts in Environmental Studies with a Public & Professional Writing Certificate. I am very passionate about food system sustainability and practicing healthy, mindful eating habits that are good for both me and the planet. I discovered this interest after taking a Sustainability class here at Pitt, which changed the way I see the world and live my life in many ways. This will be my third semester as a Sustainability TA!  </p>
+</div>
+
+<!--Replace the image in this picture frame. Match code with file name/type. Control image width using inline styling. Adjust image size to 1200-600px depending on its need to scale across a screen. Remove or adjust the frame using the frame class on style.css.-->
+<div>
+<img src="fuego.jpg" class="frame" alt=baby cow" width="50%">
+    <div class="caption">
+  <!--Add alt="text" image descriptions for visually impaired individuals using screen readers. Describe your image as clearly and succinctly as possible. Add captions. They provide another important layer of accessibility.-->
+      <p><i>New born calf I met at a sustainable farm in Reggio Emilia, Italy</i></p>
+    </div>
+
+<!--in this next section you will explain a little more about your family (what does family means to you? Who are the people that influenced you on this path along which you now stand).-->
+<div class="text-block">
+  <h2>Knowledge and Skills </h2>
+    <p>I do not have much experience with computer science or coding, so I was excited to take on this assignment. For my major, I have worked with Arc GIS, a map-making software used within Pitt’s Geology Department. For past classes and internships, I have become quite efficient in Canva for media creation, and of course, I spend a lot of time writing. Additionally, I helped co-found a community garden in South Oakland through my sustainability class called Lawn Street Garden, which is a great passion of mine. I am also a member of Pitt’s honors environmental fraternity, Epsilon Eta.</p>
+  </div>
+  
+<!--Flexbox uses rows and column classes to create layouts that scale content across devices. The style.css page provides other attributes that will adjust the image depending on the size of screens. Add images to your project folder and make sure the file name/type matches in your code. Resize images to less than 600px in width. This will improve load time accessibility. Don't forget to add alt="text"-->
+<div class="flexbox-container"> 
+  <div class="row">
+    <div class="column">
+     <img src="pgrid1.jpg" alt=Deep Creek Adventures>
+      <img src="pgrid2.jpg" alt=Skiing in Park City, Utah>
+   </div>
+   <div class="column">
+     <img src="pgrid3.jpg" alt=Beach in Capri, Italy>
+     <img src="pgrid4.jpg" alt=Friends in the Summertime>
+    </div>
+   <div class="column">
+     <img src="pgrid5.jpg" alt=Me in Lake Como>
+      <img src="pgrid6.jpg" alt=My Cat Bowie>
+    </div>
+  </div>
+      <p><i>Some of my favorite adventure & memories</i></p>
+</div>
+
+<!--Now we are moving into the kinds of media that contributes to your everyday discourse. This might sound weird, but Ulmer argues that media has actually contributed a great deal to who you are as a person, how you language yourself, and even how you move through the world and interact with others. So, let's take some time to explore this discourse area. You have the opportunity to add video content or other significant media content. You might also add images to this section (see the bottom of this sheet for directions on how to add elements) perhaps adding a photo grid like the one you did for the "Family" section. Experiment. You can't break this thing, right? Control Z. Control Z. Control Z... -->
+
+<div class="text-block">
+  <h2>Potential Project</h2>
+
+<!--How do you use media? What role do certain kinds of media play in your life? How does media serve a social function? In what way might you be "recreating" or "remaking" media in your everyday life?
+
+FUN FACT: "Lorem ipsum", "Lorem ipsum" was hacked out of Cicero's "De finibus bonorum et malorum," developers made it non-sensical. So while you will probably never write as well as Cicero, you can always improve upon "Lorem ipsum."-->
+
+<p>For a while, I’ve wanted to get into photography, and I finally decided to give it a shot, so I bought a high-quality camera at the beginning of the semester. I went with the Canon r100, a beginner-friendly professional camera that was right around my budget. As exciting as I am, I still have a lot to learn about this camera and photography in general, so I would like to incorporate this into my digital composition project. I want to document my growth and learning throughout the semester! While I am not certain how I am going to do this exactly, I have a few ideas!</p>
+</div>
+
+<!--Between these divisions, you may want to add a new div element like an image (see the bottom of this html page for instructions on adding code blocks) -->
+
+<!--We will use this next section to process your community(-ies)-->
+
+<!--find a YouTube video that has some significance in your life. Click "share," and copy and paste the embed link and paste it below-->
+
+</div>
+    <p></p>
+</div>
+
+<div class="text-block">
+  <h2>Future Plans</h2>
+
+<!--So what exactly is your community: is it actual? virtual? Where do find your ground, or at least, where do you drop anchor, you drifter, you? While we often think of communities as neighborhoods and clubs and a group of colleagues or friends, you might find community across the frontiers of the dead, and perhaps even with those who have never lived. I'll let you explain. -->
+  <p>This summer, I was the Climate Engagement Intern at Phipps Conservatory and Botanical Gardens, which was an amazing experience. My tasks included creating social media posts, finding funding opportunities, editing their website, creating website posts, outreach, and emailing, among many other things. I hope to find a similar job when I graduate! I really want to work in the environmental field, but this is quite broad.  </p>
+  </div>
+
+  <div class="polaroid">
+    <img src="polaroid.jpg" alt=Rainbow in New Mexico>
+      <div class="polaroid-caption">
+        <p><i>Rainbow over the Sandia Mountains, NM</i></p>
+      </div>
+  </div>
+
+
+<!-- In our final discourse section, we will process the role schooling has played in our lives. -->
+
+    <!--To change the image for this wide screen parallax scroll, you will need change the file name in your style.css to match an image in your project folder. Look for ".paralax" on your style.css sheet-->
+
+<div class="parallax"></div>
+
+<!--Like it or not, your schooling, formal and informal, for better or for worse, has been another factor that has brought you here and prepared you for this moment. Let's think through these systems, expectations, and outcomes. And let's also think a little about futurity... where is this learning, formal and informal – this unconcealing – taking you? -->
+<div class="text-block">
+  <h2></h2>
+  <p></p>
+  </div>
+
+<!--The final step in our process will be to ensure that a smaller version of our "hero image," what Ulmer would refer to as our "wide image," repeats at the bottom of our document to better reinforce this motif.  -->
+
+<div class="logo">
+    <img src="fuego.jpg" alt="my feet in water" style="width:25%;">
+            <p><b>generated by <a href="https://open-fuego.github.io/Open-Fuego-Coding-Tools/">Open Fuego</a></b></p>
+            <p><i>Why make a spark when you can light a fire?</i></p>
+  </div>
+
+  </body>
+     </html>
+
+
+
+  <!--Looking to add components? You've come to the right place. Copy and paste code blocks and add to the body section. Adjust class CSS properties on style.css.
+
+
+    ***Add Text block***
+
+    (Format textblock using inline styling: text-align: left, center, justify, right. To improve accessibility, always left-align text longer than three lines; Format text: <i>italics</i>; <b>bold</b>; <u>underline</u>; <mark>highlight</mark>; <sup>superscript</sup>; <sub>subscript</sub>; Link Website: <a href="link">LinkName</a>; Line Breaks: <br></br>;
+
+  <div class="text-block" style="text-align: left">
+    <h2>Header</h2>
+       <p>We recommend using our mobile-ready text sizing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
+
+
+    ***Add Pull Quote***
+
+    (Format text: Italics: <i>italics</i>; Bold: <b>bold</b>. Change font and font size using CSS)
+
+  <div class="pull-quote" style="text-align: center">
+    <h2>Excepteur sint occaecat cupidatat non proident!</h2>
+  </div>
+
+
+
+    ***Bulleted Points or List***
+
+    (Nest within text-block or style using CSS. Change <ul> to <ol> in HTML to switch from unordered list to ordered list.)
+
+  <div>
+    <ul>
+      <li>first</li>
+      <li>second</li>
+      <li>third</li>
+    </ul>
+  </div>
+
+
+
+    ***Add Link that Looks Like a Button***
+
+    (Clearly label link action. For more stylings, find button-box class properties on style.css)
+
+  <div class="button-box">
+    <a href="https://codela-k12.github.io/main/" class="button">Go to Codela</a>
+  </div>
+
+
+
+    ***Add CSS Flexbox Container with Placeholder Images***
+
+    (Add or subtract columns. Control column width using CSS.)
+
+  <div class="flexbox-container">
+    <div class="row">
+        <div class="column">
+            <img src="pgrid1.jpg" alt="describe the image HERE for accessibility purposes">
+            <img src="pgrid2.jpg" alt="describe the image HERE for accessibility purposes">
+        </div>
+        <div class="column">
+            <img src="pgrid3.jpg" alt="describe the image HERE for accessibility purposes">
+            <img src="pgrid4.jpg" alt="describe the image HERE for accessibility purposes">
+        </div>
+        <div class="column">
+            <img src="pgrid5.jpg" alt="describe the image HERE for accessibility purposes">
+            <img src="pgrid6.jpg" alt="describe the image HERE for accessibility purposes">
+        </div>
+    </div>
+        <p><i>Add a caption.</i></p>
+  </div>
+
+
+
+    ***Add Image Frame and Filters***
+
+    (Control image width using inline styling. Adjust "frame" class properties using CSS.)
+
+  <img class="frame" src="codela.jpg" width="50%" alt="describe the image HERE for accessibility purposes">
+    <div class="caption">
+      <p><i>Add a caption</i></p>
+    </div>
+  
+
+
+    ***Add Polaroid***
+
+    (Control image width using CSS.)
+
+  <div class="polaroid">
+    <img src="polaroid.jpg" alt="describe the image HERE for accessibility purposes">
+      <div class="polaroid-caption">
+        <p><i>Add a caption</i></p>
+      </div>
+  </div>
+
+
+
+      ***Add Image Container with Text Box***
+
+      (Control Image Container properties using CSS.)
+
+  <div class="image-container">
+    <img src="image.jpg" alt="describe image here">
+      <div class="image-container-text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+  </div>
+
+
+
+    ***Add Parallax Window***
+
+      (Adjust properties using parallax class on style.css)
+
+  <div class="parallax"></div>
+    <div class="caption">
+      <p><i>Add a caption.</i></p>
+  </div>
+
+
+
+     ***Embed YouTube Video***
+
+     <div class="video">
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/PhPLTpqG0pU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>>
+      </div>
+        <p>Add a caption.</p>
+     </div>
+
+
+     ***Add Copyright Footer***
+
+     <div class="footer">
+       <p><i>Copyright Your Name, Year.</i></p>
+     </div>
+   
+   
+   
+       ***Need something that's not here? Go to https://www.w3schools.com to find all kinds of resources to facilitate your code learning.***
